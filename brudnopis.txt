@@ -1,0 +1,6 @@
+wycięte fragmenty
+
+<a><button class="btn glowna">Glowna</button></a>
+  <a><button class="btn muzyka">Muzyka</button></a>
+  <a><button class="btn szydelko">Szydelko</button></a>
+  <a><button class="btn refleksje">Refleksje</button></a>
