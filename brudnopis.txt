@@ -4,3 +4,35 @@ wycięte fragmenty
   <a><button class="btn muzyka">Muzyka</button></a>
   <a><button class="btn szydelko">Szydelko</button></a>
   <a><button class="btn refleksje">Refleksje</button></a>
+  
+  gridy:
+  
+  .grid-czapka {
+	      grid-column: 1 / span 7;
+		  }
+	.grid-menulewe {
+		grid-column: 1 / span 2;
+	}
+	.grid-main {
+		grid-column: 2 / span 6;
+	}
+	.grid-menuprawe {
+		grid-column: 6 / span 7;
+			}
+	.grid-footer {
+		grid-column: 1 / span 7;
+	}
+	
+	
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 10px;
+	
+	/*wyświetlane obrazki w zakładce muzyka */
+	.topvideo {
+	   float: left;
+	   position: absolute;
+      top: 80px;
+	  left: 7px;
+	z-index: 50;}
+	/*koniec obrazków*/
