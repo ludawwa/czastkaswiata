@@ -24,12 +24,8 @@ body {background-color: rgb(40, 175, 200);
 	 padding: 5 px;	
 	   }
   h4, h5 {color: Blueviolet;
-         font-family: "Arial", sans-serif;
+         font-family: "Georgia", serif;
 		 font-size: 16px;
-		  word-spacing: 0.2em;
-		  letter-spacing: 0.1em;
-		  line-height: 30px;
-		  
   } 
   table, th, td {border: 1px solid green;}
   th {color: rgb(170, 90, 55);
@@ -99,8 +95,6 @@ p.linkmuza {
     border: none;	 
 	width: 200px;
   margin-top: 223px;
-  word-spacing: 0.2em;
-		  letter-spacing: 0.1em;
  }
   
   .btnszyd {
@@ -161,18 +155,10 @@ p.linkmuza {
 	 
 }
 
-.gatunek {
-	 text-transform: uppercase;
-	 word-spacing: 0.2em;
-		  letter-spacing: 0.07em;
-		  font-size: 12px;
-		  font-weight: 300;
-}
 .tytulutworu {
 		font-size: 16px; 
 		font-family: Georgia; 
-		color: Blueviolet;
-		line-height: 30px;
+		color:Blueviolet;
 }
 
 

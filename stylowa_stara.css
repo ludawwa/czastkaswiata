@@ -1,0 +1,212 @@
+body {background-color: rgb(40, 175, 200);
+      
+}
+ table {
+	 position: relative;
+     width: 75%;
+	 float: right;
+	 top: 250px;
+	 text-align: center;
+	 background-color: rgb(70, 210, 110);
+       }
+ 
+  h2 {color: rgb(195, 80, 80);
+  font-family: "Georgia", serif;
+    font-size: 40px;
+	height: 25px;
+	padding: 10px;
+	 	 	 }
+			 
+  h3 {color: rgb(15, 100, 25);
+  font-family: "Georgia", serif;
+     font-size: 20px;
+	 height: 10px;
+	 padding: 5 px;	
+	   }
+  h4, h5 {color: Blueviolet;
+         font-family: "Arial", sans-serif;
+		 font-size: 16px;
+		  word-spacing: 0.2em;
+		  letter-spacing: 0.1em;
+		  line-height: 30px;
+		  
+  } 
+  table, th, td {border: 1px solid green;}
+  th {color: rgb(170, 90, 55);
+     font-size: 18px;}
+	 
+  td {
+	  font-family: "Times New Roman";
+      font-size: 16px;
+	  	  }
+ p {
+		  font-family: "Times New Roman";
+          font-size: 16px;
+		  text-align: justify;
+	  }
+p.linkmuza {
+	text-align: center; 
+}
+  * {
+  box-sizing: border-box;
+}
+  
+ #nawigacja  {
+		float: left;
+		position: fixed;
+		top: 0px;
+		left: 7px;
+		 z-index: 10;
+		}
+		
+.btn { /* nawigacja */
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+	font-family: "Georgia", serif; 
+	font-weight: bold;
+	font-size: 15;
+	font-style: italic;
+	 line-height: 1.15;
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */}
+  .glowna {
+	background-color: rgba(50, 110, 50, 0.7);
+	}
+ .muzyka {
+	background-color: rgba(50, 50, 110, 0.7);
+}
+.szydelko{
+	background-color: rgba(160, 50, 50, 0.7);
+}
+.refleksje {
+	background-color: rgba(210, 120, 0, 0.7);
+} /*koniec nawigacji */
+
+
+.tytul
+  {
+	   position: fixed;
+       top: 25px;
+	   left: 450px;
+	   text-align: center;
+	     	  }
+  
+  .menulewe {
+	float: left;
+	border: none;	 
+	width: 230px;
+    margin: auto;
+	font-weight: bold;
+  }
+ .menuprawe {
+	float: right;
+	border: none;
+width: 230px;	
+	margin: auto;
+	font-weight: bold;
+}
+  .menuboczneszydelko {
+	position: absolute;
+    border: none;	 
+	width: 200px;
+  margin-top: 223px;
+  word-spacing: 0.2em;
+		  letter-spacing: 0.1em;
+ }
+  
+  .btnszyd {
+	 border: 1px solid rgb(255, 166, 158);
+	 border-radius: 5px;
+	 color: blach; /* Add a text color */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer;
+	background-color: rgba(255, 166, 158, 0.7);
+   font-family: "Times New Roman";
+   font-size: 18px;
+   font-weight: bold; 
+    color: rgb(170, 90, 55);}
+.naglowekwzor {
+	font-size: 16px; 
+	font-family: Georgia; 
+	color: Blueviolet;
+}
+   .btna {
+	 border: 1px solid rgb(50, 110, 50);
+	 border-radius: 5px;
+	 color: white; /* Add a text color */
+    padding: 7px 1px; /* Add some padding */
+    cursor: pointer;
+   background-color: rgba(50, 110, 50, 0.3);}
+   
+  .btnb {
+	 border: 1px solid rgb(50, 110, 50);
+	 border-radius: 5px;
+	 color: white; /* Add a text color */
+    padding: 7px 1px; /* Add some padding */
+    cursor: pointer;
+	background-color: rgba(50, 150, 50, 0.3);
+  }
+  
+  
+/* kolory tabel i reszta */
+
+
+.tablemuzyka {
+	background-color: rgba(25, 200, 200, 0.7);
+}
+.TABLESZYDELKO {
+	background-color: rgba(255, 166, 158, 0.7);
+}
+.tablerefleksje {
+	background-color: rgba(221, 176, 93, 0.7)
+}
+
+.treemusic {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	float: right;
+	width: 10%;
+	height: 20%;
+}
+
+.topvideo {
+	   float: left;
+	   position: absolute;
+      top: 80px;
+	  left: 7px;
+	  z-index: 50;
+	 
+}
+
+.gatunek {
+	 text-transform: uppercase;
+	 word-spacing: 0.2em;
+		  letter-spacing: 0.07em;
+		  font-size: 12px;
+		  font-weight: 300;
+}
+.tytulutworu {
+		font-size: 16px; 
+		font-family: Georgia; 
+		color: Blueviolet;
+		line-height: 30px;
+}
+
+
+
+div#trescglowna {
+	 border: 1px solid rgb(50, 110, 50);
+	 border-radius: 5px;
+    margin: 250px 250px 100% 250px;
+	padding: 15px 30px;
+	    	 }
+#tresc p{
+	 line-height: 1.15;
+    display: inline-block;
+    }
+
+
+
+  
+  
